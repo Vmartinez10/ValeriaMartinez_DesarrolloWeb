@@ -6,6 +6,7 @@
   text-decoration: none;
   box-sizing: border-box;
   max-width: 1400px;
+  font-family:'Courier New', Courier, monospace;
 }
 
 /*NAVBAR BTS*/
@@ -117,6 +118,50 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+}
+
+/*LANZAMIENTOS*/
+
+/*--MAIN--*/
+
+.titulo-lanz{
+  font-family:'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+}
+#main-lanzamiento{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  grid-template-areas: 
+            /*COL1*/  /*COL2*/   /*COL3*/
+  /*FILA1*/  "img1      img2       img3"
+  /*FILA2*/  "img4      img4       img4"
+  ;
+
+}
+#main-lanzamiento img{
+  width: 100%;
+  height: 100%;
+}
+
+.img1{
+  grid-area: img1 ;
+  padding-bottom: 10%;
+  padding-right: 5%;
+}
+.img2{
+  grid-area:img2 ;
+  padding-bottom: 10%;
+  padding-right: 5%;
+}
+.img3{
+  grid-area: img3;
+  padding-bottom: 10%;
+}
+.img4{
+  grid-area:img4;
 }
 
 /*-------------FOOTER--------------------*/
