@@ -203,6 +203,8 @@ body {
 MOBILE= 600px
 TABLET= 800 Y 900px
 DESKTOP= 1200 y 1400px*/
+
+/*--INDEX*/
 @media screen and (min-width: 600px) and (max-width: 749px) {
   #main {
     grid-template-columns: repeat(1, 1fr);
@@ -221,6 +223,8 @@ DESKTOP= 1200 y 1400px*/
     grid-template-rows: repeat(2, 1fr);
   }
 }
+
+/*--ZAPATILLAS*/
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .section__grid-styles {
     grid-template-columns: repeat(1, 1fr);
