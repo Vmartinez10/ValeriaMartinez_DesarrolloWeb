@@ -229,6 +229,10 @@ DESKTOP= 1200 y 1400px*/
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
+  .section__grid-styles{
+    grid-template-columns: repeat(1 ,1fr);
+    grid-template-rows: repeat(1 ,1fr);
+  }
 }
 @media screen and (min-width: 750px) and (max-width: 1100px) {
   #cards-index {
@@ -239,6 +243,10 @@ DESKTOP= 1200 y 1400px*/
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
+  .section__grid-styles{
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(0);
+  }
 }
 @media screen and (min-width: 1101px) and (max-width: 1400px) {
   #cards-index {
@@ -248,6 +256,10 @@ DESKTOP= 1200 y 1400px*/
   #body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+  .section__grid-styles{
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(0);
   }
 }
 
